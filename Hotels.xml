@@ -5,7 +5,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -17,7 +17,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott</Name>
     <Phone>619-234-1500</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>333</Number>
       <Street>W Harbor Dr</Street>
       <City>San Diego</City>
@@ -29,7 +29,7 @@
   <Hotel Rating="4.1">
     <Name>Hilton</Name>
     <Phone>858-558-1500</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>10950</Number>
       <Street>N Torrey Pines Rd</Street>
       <City>La Jolla</City>
@@ -41,7 +41,7 @@
   <Hotel Rating="3.8">
     <Name>Holiday Inn</Name>
     <Phone>858-350-0111</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>621</Number>
       <Street>S Hwy 101</Street>
       <City>Solana Beach</City>
@@ -53,7 +53,7 @@
   <Hotel Rating="4.8">
     <Name>Fairmont Grand</Name>
     <Phone>858-314-2000</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>5300</Number>
       <Street>Grand Del Mar Ct</Street>
       <City>San Diego</City>
@@ -65,7 +65,7 @@
   <Hotel>
     <Name>Hampton Inn</Name>
     <Phone>858-792-5557</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>11920</Number>
       <Street>El Camino Real</Street>
       <City>San Diego</City>
@@ -77,7 +77,7 @@
   <Hotel>
     <Name>DoubleTree</Name>
     <Phone>858-481-5900</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>11915</Number>
       <Street>El Camino Real</Street>
       <City>San Diego</City>
@@ -89,7 +89,7 @@
   <Hotel>
     <Name>Residence Inn</Name>
     <Phone>858-552-9100</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>5995</Number>
       <Street>Pacific Mesa Ct</Street>
       <City>San Diego</City>
@@ -101,7 +101,7 @@
   <Hotel>
     <Name>Courtyard</Name>
     <Phone>858-558-9600</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>9650</Number>
       <Street>Scranton Rd</Street>
       <City>San Diego</City>
@@ -113,7 +113,7 @@
   <Hotel>
     <Name>Hyatt House</Name>
     <Phone>858-597-0500</Phone>
-    <Address NearestAirport="San Diego">
+    <Address NearstAirport="San Diego">
       <Number>10044</Number>
       <Street>Pacific Mesa Blvd</Street>
       <City>San Diego</City>
