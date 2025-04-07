@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-9" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns="https://Laurelwyvern.github.io"
+  targetNamespace="https://Laurelwyvern.github.io/Hotels.xsd"
+  elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xsd:element name="Hotels">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Hotel">
+          <xsd:complexType>
+            <xsd:attribute name="Rating" type="xsd:double"/>
+            <xsd:element name="Name" type="xsd:string"/>
+            <xsd:sequence>
+              <!--assuming xsd:string as it is stored dashes as well as numeric characters-->
+              <xsd:element name="Phone" type="xsd:string"/>
+            </xsd:sequence>
+            <xsd:element name="Address">
+              <xsd:complexType>
+                <xsd:element name="Number" type="xsd:integer"/>
+                <xsd:element name="Street" type="xsd:string"/>
+                <xsd:element name="City" type="xsd:string"/>
+                <xsd:element name="State" type="xsd:string"/>
+                <!--assuming xsd:integer as it is stored with only numeric characters-->
+                <xsd:element name="Zip" type="xsd:integer"/>
+                <xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
