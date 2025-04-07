@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Hotels>
+  <!--1-->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <!--2-->
+  <Hotel Rating="4.5">
+    <Name>Marriott</Name>
+    <Phone>619-234-1500</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>333</Number>
+      <Street>W Harbor Dr</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
+    </Address>
+  </Hotel>
+  <!--3-->
+  <Hotel Rating="4.1">
+    <Name>Hilton</Name>
+    <Phone>858-558-1500</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>10950</Number>
+      <Street>N Torrey Pines Rd</Street>
+      <City>La Jolla</City>
+      <State>CA</State>
+      <Zip>92037</Zip>
+    </Address>
+  </Hotel>
+  <!--4-->
+  <Hotel Rating="3.8">
+    <Name>Holiday Inn</Name>
+    <Phone>858-350-0111</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>621</Number>
+      <Street>S Hwy 101</Street>
+      <City>Solana Beach</City>
+      <State>CA</State>
+      <Zip>92075</Zip>
+    </Address>
+  </Hotel>
+  <!--5-->
+  <Hotel Rating="4.8">
+    <Name>Fairmont Grand</Name>
+    <Phone>858-314-2000</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>5300</Number>
+      <Street>Grand Del Mar Ct</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92130</Zip>
+    </Address>
+  </Hotel>
+  <!--6-->
+  <Hotel>
+    <Name>Hampton Inn</Name>
+    <Phone>858-792-5557</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>11920</Number>
+      <Street>El Camino Real</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92130</Zip>
+    </Address>
+  </Hotel>
+  <!--7-->
+  <Hotel>
+    <Name>DoubleTree</Name>
+    <Phone>858-481-5900</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>11915</Number>
+      <Street>El Camino Real</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92130</Zip>
+    </Address>
+  </Hotel>
+  <!--8-->
+  <Hotel>
+    <Name>Residence Inn</Name>
+    <Phone>858-552-9100</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>5995</Number>
+      <Street>Pacific Mesa Ct</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92121</Zip>
+    </Address>
+  </Hotel>
+  <!--9-->
+  <Hotel>
+    <Name>Courtyard</Name>
+    <Phone>858-558-9600</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>9650</Number>
+      <Street>Scranton Rd</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92121</Zip>
+    </Address>
+  </Hotel>
+  <!--10-->
+  <Hotel>
+    <Name>Hyatt House</Name>
+    <Phone>858-597-0500</Phone>
+    <Address NearstAirport="San Diego">
+      <Number>10044</Number>
+      <Street>Pacific Mesa Blvd</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92121</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
