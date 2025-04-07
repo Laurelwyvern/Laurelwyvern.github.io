@@ -6,13 +6,13 @@
   <xsd:element name="Hotels">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element name="Hotel">
+        <xsd:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xsd:complexType>
             <xsd:attribute name="Rating" type="xsd:double"/>
             <xsd:element name="Name" type="xsd:string"/>
             <xsd:sequence>
               <!--assuming xsd:string as it is stored dashes as well as numeric characters-->
-              <xsd:element name="Phone" type="xsd:string"/>
+              <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
             </xsd:sequence>
             <xsd:element name="Address">
               <xsd:complexType>
