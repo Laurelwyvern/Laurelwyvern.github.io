@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns="https://Laurelwyvern.github.io"
-  targetNamespace="https://Laurelwyvern.github.io/Hotels.xsd"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
   elementFormDefault="qualified" attributeFormDefault="unqualified">
-  <xsd:element name="Hotels">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
-          <xsd:complexType>
-            <xsd:attribute name="Rating" type="xsd:double"/>
-            <xsd:element name="Name" type="xsd:string"/>
-            <xsd:sequence>
-              <!--assuming xsd:string as it is stored dashes as well as numeric characters-->
-              <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
-            </xsd:sequence>
-            <xsd:element name="Address">
-              <xsd:complexType>
-                <xsd:element name="Number" type="xsd:integer"/>
-                <xsd:element name="Street" type="xsd:string"/>
-                <xsd:element name="City" type="xsd:string"/>
-                <xsd:element name="State" type="xsd:string"/>
-                <!--assuming xsd:integer as it is stored with only numeric characters-->
-                <xsd:element name="Zip" type="xsd:integer"/>
-                <xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
-              </xsd:complexType>
-            </xsd:element>
-          </xsd:complexType>
-        </xsd:element>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-</xsd:schema>
+  
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              
+              <xs:element name="Name" type="xs:string"/>
+              <!--assuming xs:string as it is stored dashes as well as numeric characters-->
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Number" type="xs:integer"/>
+                    <xs:element name="Street" type="xs:string"/>
+                    <xs:element name="City" type="xs:string"/>
+                    <xs:element name="State" type="xs:string"/>
+                    <!--assuming xs:integer as it is stored with only numeric characters-->
+                    <xs:element name="Zip" type="xs:integer"/>
+                  </xs:sequence>
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              
+            </xs:sequence>
+            <xs:attribute name="Rating" type="xs:decimal"/>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
