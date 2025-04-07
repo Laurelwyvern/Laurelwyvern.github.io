@@ -23,7 +23,7 @@
                     <!--assuming xs:integer as it is stored with only numeric characters-->
                     <xs:element name="Zip" type="xs:integer"/>
                   </xs:sequence>
-                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
+                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
               
